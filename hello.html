@@ -2,8 +2,29 @@
 <html lang="en">
     <head>
         <title>Hello world!</title>
+        <style>
+            .container {
+                display: flex;
+                flex-flow: column wrap;
+            }
+
+            .container > div {
+                flex: auto;
+                text-align: center;
+                margin: 20px;
+                padding: 20px
+            }
+        </style>
     </head>
     <body>
         <h3>Hello world!</h3>
+        <div class="container">
+            <div>
+                Here is the picutre of a mighty bald Eagle
+            </div>
+            <div>
+                <img src="eagle.jpg" alt="Bald Eagle" width="200px">
+            </div>
+        </div>
     </body>
 </html>
